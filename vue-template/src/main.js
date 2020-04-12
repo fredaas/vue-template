@@ -27,21 +27,21 @@ Vue.use(Vuex);
 
 
 const routes = [
-    {
-      path: "/",
-      component: Home,
-      meta: { requiresAuth: false }
-    },
-    {
-      path: "/X",
-      component: X,
-      meta: { requiresAuth: false }
-    },
-    {
-      path: "/Y",
-      component: Y,
-      meta: { requiresAuth: false }
-    },
+  {
+    path: "/",
+    component: Home,
+    meta: { requiresAuth: false }
+  },
+  {
+    path: "/X",
+    component: X,
+    meta: { requiresAuth: false }
+  },
+  {
+    path: "/Y",
+    component: Y,
+    meta: { requiresAuth: false }
+  },
 ];
 
 const router = new VueRouter({
