@@ -1,9 +1,11 @@
 <template>
   <v-app>
     <div class="mx-auto">
-      <router-link class="router-style" to="/">Home</router-link> /
-      <router-link class="router-style" to="/X">X</router-link> /
-      <router-link class="router-style" to="/Y">Y</router-link>
+      <div>
+        <router-link class="router-style" to="/">Home</router-link> /
+        <router-link class="router-style" to="/X">X</router-link> /
+        <router-link class="router-style" to="/Y">Y</router-link>
+      </div>
 
       <div class="my-12" align="center" id="color-header">
         Vue App
